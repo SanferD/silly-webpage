@@ -1,0 +1,117 @@
+div#header {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	background-color: #a4bcc2;
+}
+
+div#spacer {
+	width: 100%;
+	visibility: hidden;
+	/*padding-bottom: 0;*/
+	/*margin-bottom: -90%;*/
+}
+
+div#header img, div#spacer img {
+	float: left;
+}
+
+div#header h1, div#spacer h1 {
+	font-family: Palatino, "Courier New", Times, serif;
+	font-size: 3.25em;
+	padding-left: 15%;
+	/*padding-top: 1.1%;*/
+}
+
+div#main {
+	width: 69%;
+	float: left;
+	clear: both;
+}
+
+div#advert {
+	width: 29%;
+	float: right;
+	clear: both;
+	margin-top: 5em;
+}
+
+div#advert h2 {
+	margin-top: -43.5%;
+	font-family: Verdana;
+	font-size: 2.2em;
+	color: #004f30;
+}
+
+div#advert ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+div#advert ul li {
+	font-family: serif;
+	font-size: 1.15em;
+	display: block;
+}
+
+div#advert ul li a.name {
+	font-family: Arial;
+	font-size: 1.25em;
+	font-weight: bolder;
+}
+
+div#navbar {
+	margin-top: -21.5%;
+	margin-left: 25%;
+}
+
+div#navbar ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+div#navbar ul li {
+	background-color: #28b463;
+	margin: 0 0 .25em 0;
+	display: inline;
+	width: 20%;
+	float: left;
+	margin-right: 2em;
+	text-align: center;
+}
+
+div#navbar ul li a {
+	font-size: 1.25em;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: white;
+	display: block;
+	padding: .35em;
+}
+
+div#navbar ul li:hover {
+	background-color: #239B56;
+}
+
+div#main h2 {
+	/*margin-top: 0em;*/
+	text-align: center;
+	font-size: 2.35em;
+}
+
+div#main p {
+	/*margin-top: -2.5%;*/
+}
+
+div#main {
+	/*clear: both;*/
+	text-align: justify;
+	font-family: sans-serif;
+}
+
+.no-wrap {
+	clear: both;
+}

@@ -1,0 +1,157 @@
+body {
+	width: 100%;
+	font-size: 1em;
+}
+
+div#header {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding-bottom: 0;
+	background-color: #a4bcc2;
+}
+
+div#header img {
+	float: left;
+}
+
+div#header h1 {
+	font-family: Palatino, "Courier New", Times, serif;
+	font-size: 3.25em;
+	color: purple;
+	text-align: center;
+}
+
+div#main {
+	width: 95%;
+	margin: 135px auto 0 auto;
+}
+
+div#main div#main-content {
+	width: 66%;
+	float: left;
+}
+
+div#main div#advert {
+	width: 30%;
+	float: right;
+}
+
+div#main div#advert h2 {
+	font-family: Verdana;
+	font-size: 2.2em;
+	color: #004f30;
+}
+
+div#main div#advert ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+div#main div#advert ul li {
+	font-family: serif;
+	font-size: 1.15em;
+	display: block;
+}
+
+div#main div#advert ul li a.name {
+	font-family: Arial;
+	font-size: 1.25em;
+	font-weight: bolder;
+	text-decoration: none;
+	color: #996633;
+}
+
+div#main div#advert ul li a.name:hover {
+	color: #734d26;
+}
+
+div#main div#main-content div#navbar {
+	text-align: center;
+}
+
+div#main div#main-content div#navbar ul {
+	list-style-type: none;
+}
+
+div#main div#main-content div#navbar ul li {
+	background-color: #28b463;
+	margin-right: 2em;
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+}
+
+div#main div#main-content div#navbar ul li a {
+	font-size: 1.25em;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: white;
+	display: block;
+	padding: .35em;
+}
+
+div#main div#main-content div#navbar ul li:hover {
+	background-color: #239B56;
+}
+
+div#main div#main-content div#content {
+	clear: both;
+	text-align: justify;
+	font-family: Verdana;
+}
+
+div#main div#main-content div#content p {
+	font-size: 1.25em;
+}
+
+div#main div#main-content div#content h2 {
+	margin-top: 0em;
+	text-align: center;
+	font-size: 2.3em;
+	margin-bottom: 0;
+	font-family: "comic sans ms";
+}
+
+div#footer {
+	clear: both;
+	border: 2px solid black;
+	background-color: black;
+}
+
+div#footer ul {
+	list-style-type: none;
+}
+
+div#footer ul li {
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+	vertical-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+div#footer ul li a {
+	color: white;
+	padding: .35em;
+	text-decoration: none;
+}
+
+img.float-left {
+	float: left;
+	margin: 1em .5em 0 0;
+}
+
+img.float-right {
+	float: right;
+	margin: .2em 0 .2em .5em;
+}
+
+img.center {
+	display: block;
+	margin: 0 auto .5em auto;
+}
+
